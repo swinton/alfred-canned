@@ -1,6 +1,6 @@
 {
   "name": "alfred-canned",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Canned replies, at your fingertips",
   "license": "MIT",
   "repository": "swinton/alfred-canned",
@@ -30,7 +30,9 @@
   ],
   "dependencies": {
     "@octokit/rest": "^17.8.0",
-    "alfy": "^0.9.1"
+    "alfy": "^0.9.1",
+    "moment": "^2.25.3",
+    "mustache": "^4.0.1"
   },
   "devDependencies": {
     "alfy-test": "^0.4.0",
