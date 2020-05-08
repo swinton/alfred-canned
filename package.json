@@ -1,0 +1,39 @@
+{
+  "name": "alfred-canned",
+  "version": "0.0.0",
+  "description": "Canned replies, at your fingertips",
+  "license": "MIT",
+  "repository": "swinton/alfred-canned",
+  "author": {
+    "name": "Steve Winton",
+    "email": "stevewinton@gmail.com",
+    "url": "https://github.com/swinton"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "test": "semistandard --env jest && jest --coverage",
+    "lint": "semistandard --env jest --fix",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.9.1"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.4.0",
+    "jest": "^26.0.1",
+    "semistandard": "^14.2.0"
+  }
+}
