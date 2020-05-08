@@ -29,6 +29,7 @@
     "alfy"
   ],
   "dependencies": {
+    "@octokit/rest": "^17.8.0",
     "alfy": "^0.9.1"
   },
   "devDependencies": {
