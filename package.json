@@ -15,7 +15,7 @@
   "scripts": {
     "test": "semistandard --env jest && jest --coverage",
     "lint": "semistandard --env jest --fix",
-    "postinstall": "alfy-init",
+    "postinstall": "cp info.plist.example info.plist && alfy-init",
     "preuninstall": "alfy-cleanup"
   },
   "files": [
