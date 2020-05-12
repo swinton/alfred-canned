@@ -18,11 +18,6 @@
     "postinstall": "cp info.plist.example info.plist && alfy-init",
     "preuninstall": "alfy-cleanup"
   },
-  "files": [
-    "index.js",
-    "icon.png",
-    "info.plist"
-  ],
   "keywords": [
     "alfred",
     "workflow",
