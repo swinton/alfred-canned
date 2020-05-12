@@ -1,7 +1,7 @@
 const alfy = require('alfy');
 const mustache = require('mustache');
-const github = require('./github');
-const variables = require('./variables');
+const github = require('./lib/github');
+const variables = require('./lib/variables');
 
 (async () => {
   const file_sha = alfy.input || '';

@@ -1,5 +1,5 @@
 const alfy = require('alfy');
-const github = require('./github');
+const github = require('./lib/github');
 
 (async () => {
   const input = alfy.input || '';
